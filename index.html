@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="shortcut icon" type="image/png" href="logos/IconOnly.png" />
+
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,13 +15,15 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="style.css" />
+
     <title>Schrodingers Solutions</title>
   </head>
   <body>
     <div class="container mt-5">
-      <h1>
+      <h1 class="text">
         Contact Us
-        <span class="h6 text-muted">(website is under construction)</span>
+        <!-- <span class="h6 text-muted">(website is under construction)</span> -->
       </h1>
 
       <form
@@ -41,7 +45,7 @@
         />
 
         <div class="col-md-6">
-          <label for="firstName" class="form-label">First Name</label>
+          <label for="firstName" class="form-label text">First Name</label>
           <input
             type="text"
             class="form-control"
@@ -52,7 +56,7 @@
           />
         </div>
         <div class="col-md-6">
-          <label for="lastName" class="form-label">Last Name</label>
+          <label for="lastName" class="form-label text">Last Name</label>
           <input
             type="text"
             class="form-control"
@@ -64,7 +68,7 @@
         </div>
 
         <div class="col-md-8">
-          <label for="emaiInfo" class="form-label">E-mail</label>
+          <label for="emaiInfo" class="form-label text">E-mail</label>
           <input
             type="email"
             class="form-control"
@@ -75,7 +79,7 @@
           />
         </div>
         <div class="col-md-4">
-          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <label for="phoneNumber" class="form-label text">Phone Number</label>
           <input
             type="text"
             class="form-control"
@@ -87,7 +91,9 @@
           />
         </div>
         <div class="col-md-12">
-          <label for="comments" class="form-label">How can we help you?</label>
+          <label for="comments" class="form-label text"
+            >How can we help you?</label
+          >
           <textarea
             class="form-control"
             id="comments"
